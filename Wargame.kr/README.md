@@ -1,4 +1,4 @@
-# [Wargame.kr](wargame.kr)
+# [Wargame.kr](http://wargame.kr)
 ### Progress
 2018-10-26 Solved [`WTF_CODE`](./WTF_CODE).  
 2018-10-26 Solved `login filtering`.  
