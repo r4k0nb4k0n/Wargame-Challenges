@@ -2,7 +2,7 @@
 ### Progress
 2018-10-26 Solved [`WTF_CODE`](./WTF_CODE).  
 2018-10-26 Solved `login filtering`.  
-2018-10-26 Solved `QR CODE PUZZLE`.  
+2018-10-26 Solved [`QR CODE PUZZLE`](QR%20CODE%20PUZZLE).  
 2018-10-26 Solved [`flee button`](./flee%20button).  
 2018-10-26 Solved [`already got`](./already%20got).  
 2018-10-25 `ddddh` introduced `baskin game`. Skim it, not solve it.  
