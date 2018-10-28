@@ -1,7 +1,7 @@
 # [Wargame.kr](http://wargame.kr)
 ### Progress
 2018-10-26 Solved [`WTF_CODE`](./WTF_CODE).  
-2018-10-26 Solved `login filtering`.  
+2018-10-26 Solved [`login filtering`](./login%20filtering).  
 2018-10-26 Solved [`QR CODE PUZZLE`](QR%20CODE%20PUZZLE).  
 2018-10-26 Solved [`flee button`](./flee%20button).  
 2018-10-26 Solved [`already got`](./already%20got).  
