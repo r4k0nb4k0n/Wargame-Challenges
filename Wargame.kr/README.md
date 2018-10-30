@@ -1,6 +1,7 @@
 # [Wargame.kr](http://wargame.kr)
 ### Progress
 2018-10-30 Solved [`tmitter`](./tmitter).  
+2018-10-28 Solved [`md5_compare`](./md5_compare).  
 2018-10-28 Solved [`strcmp`](./strcmp).  
 2018-10-28 Solved [`DB is really GOOD`](./DB%20is%20really%20GOOD).  
 2018-10-28 Solved [`md5 password`](./md5%20password).  
