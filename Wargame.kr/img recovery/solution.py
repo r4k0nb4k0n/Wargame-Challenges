@@ -2,10 +2,11 @@ from PIL import Image
 
 one = Image.open("apngframe0.png")
 another = Image.open("apngframe1.png")
+
+# turn white pixels to transparent pixels.
 another = another.convert("RGBA")
 datas = another.getdata()
 
-# turn white pixels to transparent pixels.
 newData = []
 for item in datas:
 	if item[0] == 255 and item[1] == 255 and item[2] == 255:
