@@ -1,5 +1,6 @@
 # [Wargame.kr](http://wargame.kr)
 ### Progress
+2018-11-01 Solved [`img recovery`](./img%20recovery).  
 2018-10-31 Solved [`type confusion`](./type%20confusion).  
 2018-10-30 Solved [`tmitter`](./tmitter).  
 2018-10-28 Solved [`md5_compare`](./md5_compare).  
