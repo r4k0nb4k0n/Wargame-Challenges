@@ -30,3 +30,5 @@ def GIVE_ME_FLAG(flag):
 
 ### Solution
 * `uncompyle6 bughela.pyc > bughela.py`
+* `GIVE_ME_FLAG()`를 참조하여 올바른 flag를 생성하는 코드를 작성한다. [`solution.py`](./solution.py)
+* `http://wargame.kr/pyc_decompile/?flag=[올바른 flag]`에 접속하면 FLAG가 나타난다.
