@@ -46,7 +46,7 @@ echo("<br>level : $_COOKIE[user_lv]");
 	- 정수 `6`보다 크거나 같으면 `1`로 만든다.
 * `if($_COOKIE[user_lv]>5) @solve();`
 	- 이를 포함한 3개의 조건문을 통과해야 `@solve();`가 실행된다.
-* 이를 종합해볼 때, `eregi()`를 우회하고, `5 < x <= 6`인 `x`값으로 쿠키값을 변조하면 될 것 같다.
+* 이를 종합해볼 때, `5 < x <= 6`인 `x`값으로 쿠키값을 변조하면 될 것 같다.
 * Chrome의 [EditThisCookie](https://chrome.google.com/webstore/detail/editthiscookie/fngmhnnpilhplaeedifhccceomclgfbg?hl=ko)라는 확장 프로그램을 사용했다. 
 * `user_lv` 쿠키를 읽기 전용으로 설정하고 새로고침하니 그냥 풀렸다...
 	- 이건 좀 의도하지 않은 답인 것 같다.
