@@ -1,0 +1,8 @@
+1 AND length(id) < 64
+1 AND length(id) < 32
+1 AND length(id) < 16
+1 AND length(id) < 8
+1 AND length(id) < 4
+1 AND length(id) < 6
+1 AND length(id) < 5
+The length of the table name is  5
