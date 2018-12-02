@@ -77,4 +77,15 @@ int main(int argc, char* argv[], char* envp[]){
 	- 각각 `stdin`, `stdout`, `stderr`의 `fd`값과 용도를 알 수 있었다.
 * 궁금한 것.
 	- 원래 `open()`을 이용해서 `fd`값을 얻고 관련 작업을 진행하는 것으로 알고 있었다. 그냥 `fd`값만 알 수 있다면 `open()` 은 전혀 필요없는 것인가?
+		+ Link about `open()` [Link 1](https://linux.die.net/man/3/open), [Link 2](http://man7.org/linux/man-pages/man2/open.2.html)
+		+ The `open()` function shall return a file descriptor for the named file that is the lowest file descriptor **not currently open for that process**.
+		+ 이미 `stdin`, `stdout`, `stderr`가 실행된 프로세스에서 열려있기에 가능했던 것 같다.
+		+ 특정 프로세스에서 특정 파일을 `open()` 등의 함수로 불러들여 `fd`값을 할당했다면, 당연히 `fd`값만 알면 파일 관련 작업을 진행할 수 있다.
+		+ 하지만 `open()`등의 함수로 불러들이는 작업을 하지 않았다면, 당연히 `fd` 값도 할당이 되어 있지 않을 것이고, 파일 관련 작업을 진행할 수 없다는 것이다.
+		+ ![](./relationship.png)
+		+ 위 그림에 나타난 관계를 생성하는 작업을 `open()` 등의 함수가 하는 것이다.
 	- `stdin`, `stdout`, `stderr`가 항상 모든 프로그램에서 쓸 수 있다면, **왜** 해당 `fd`값에서 `read()`로 읽어오면 Solution의 2번째 과정처럼 입력을 넣어줄 수 있게 되는지 잘 모르겠다. 그냥 버퍼에 남아있는 값들을 읽어오지 않고 왜 굳이 입력을 넣어줄 수 있게 되는 것인가?
+		+ [C How read() function read from STDERR?](https://stackoverflow.com/questions/48443136/c-how-read-function-read-from-stderr)
+		+ Q. In the terminal **it prompts me to type the input like it does with Stdin**. Why is that?
+		+ A1. Because when you run the program directly from command-line, **both its stdin and stderr are connected to the same file (your terminal) that it has read access to**.
+		+ A2. On success, **the open() system call returns the lowest available file descriptor**. After closing file descriptor 0, **the subsequent open opens file descriptor 0 (standard input)**, and the terminal is opened for read and write. Then file descriptors 1 (standard output) and 2 (standard error) are **duplicated from the read/write descriptor 0**. Thus, all three standard file descriptors are, by default, open for both reading and writing. Note the use of the term 'file descriptors'!
