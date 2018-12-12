@@ -18,7 +18,7 @@
 ```
 
 ## Inspection
-* `if(preg_match('/\'|\"|\`/i', $_GET[no])) exit("No Quotes ~_~");`
+* ``if(preg_match('/\'|\"|\`/i', $_GET[no])) exit("No Quotes ~_~");``
 	- [RegExr](https://regexr.com/)로 분석.
 	- **`'`, `"`, `` ` ``가 걸러진다.**
 	- `/i`는 대소문자 구분이 없다는 뜻이다.
