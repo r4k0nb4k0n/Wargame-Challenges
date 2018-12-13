@@ -15,17 +15,12 @@ index.phps
 * `/index.phps` 접속 시 `index.php`의 내용을 알 수 있다.
 
 ```php
-<html>
-<head>
-<title>Challenge 7</title>
-</head>
-<body>
-<!--
+/*
 db에는 val=2가 존재하지 않습니다.
 
 union을 이용하세요
--->
-<?
+*/
+
 $answer = "????";
 
 $go=$_GET[val];
@@ -90,22 +85,6 @@ echo("<input type=button style=border:0;bgcolor='gray' value='auth' onclick=
 alert('Congratulation')><p>");
 @solve();
 } 
-
-
-
-
-?>
-
-<!--
-
-index.phps
-
--->
-
-
-
-</body>
-</html>
 ```
 
 ### Trial and error
