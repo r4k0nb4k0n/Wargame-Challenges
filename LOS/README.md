@@ -1,5 +1,6 @@
 # [Lord Of SQL Injection](https://los.eagle-jump.org/)
 ### Progress
+2018-12-14 Solved [`GIANT`](./GIANT).  
 2018-12-14 Solved [`BUGBEAR`](./BUGBEAR).  
 2018-12-14 Solved [`DARKKNIGHT`](./DARKKNIGHT).  
 2018-12-13 Solved [`GOLEM`](./GOLEM).  
