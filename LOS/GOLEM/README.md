@@ -33,6 +33,6 @@
 ## Solution
 * [golem_blind_sqli_parametric_search.py](./golem_blind_sqli_parametric_search.py)
 	- `=`는 `LIKE`로 대체한다.
-	- `or`, `and`는 `||`, `&&`로 대체한다. `&&`는 URL에 직접 쓸 때 `%27`로 URL encoded로 입력한다.
+	- `or`, `and`는 `||`, `&&`로 대체한다. `&&`는 URL에 직접 쓸 때 `%26`로 URL encoded로 입력한다.
 	- `substr(`는 `substring(`로 대체한다.
 	- `left`, `right`, `charindex`같은 함수들도 있다.
