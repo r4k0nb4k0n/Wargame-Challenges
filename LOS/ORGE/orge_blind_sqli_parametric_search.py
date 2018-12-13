@@ -3,8 +3,8 @@ import requests
 url = 'https://los.eagle-jump.org/orge_40d2b61f694f72448be9c97d1cea2480.php'
 
 cookies = {
-	'__cfduid': 'dde049027a08a63cb424811663925275a1544694937',
-	'PHPSESSID': 'hpk27krufqp74i9af9fllgbhv2'
+	'__cfduid': '',
+	'PHPSESSID': ''
 }
 
 payload = {
