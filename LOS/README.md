@@ -1,5 +1,6 @@
 # [Lord Of SQL Injection](https://los.eagle-jump.org/)
 ### Progress
+2018-12-13 Solved [`SKELETON`](./SKELETON).  
 2018-12-13 Solved [`VAMPIRE`](./VAMPIRE).  
 2018-12-13 Solved [`TROLL`](./TROLL).  
 2018-12-13 Solved [`ORGE`](./ORGE).  
