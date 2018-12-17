@@ -1,5 +1,6 @@
 # [Lord Of SQL Injection](https://los.eagle-jump.org/)
 ### Progress
+2018-12-17 The server is not available at the moment.  
 2018-12-16 Solved [`NIGHTMARE`](./NIGHTMARE).  
 2018-12-16 Solved [`SUCCUBUS`](./SUCCUBUS).  
 2018-12-16 Solved [`ZOMBIE_ASSASSIN`](./ZOMBIE_ASSASSIN).  
