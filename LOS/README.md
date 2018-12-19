@@ -1,5 +1,6 @@
 # [Lord Of SQL Injection](https://los.eagle-jump.org/)
 ### Progress
+2018-12-20 `HELL_FIRE` Sorry, this challenge is broken! (Thanks to @dohyeokkim)  
 2018-12-20 Solved [`DARK_EYES`](./DARK_EYES).  
 2018-12-20 Solved [`IRON_GOLEM`](./IRON_GOLEM).  
 2018-12-19 Solved [`DRAGON`](./DRAGON).  
