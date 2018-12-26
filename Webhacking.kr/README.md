@@ -1,6 +1,7 @@
 # [Webhacking.kr](http://webhacking.kr/)
 
 ### Progress
+2018-12-26 Solved [`prob52`](./prob52).  
 2018-12-26 Solved [`prob54`](./prob54).  
 2018-12-18 Solved [`prob39`](./prob39).  
 2018-12-17 Solved [`prob38`](./prob38).  
