@@ -10,7 +10,7 @@ What value must `GetDriveTypeA` return in order to make the computer recognize t
 * x32dbg
 
 ## Explanation
-![](./1.png)  
+![](./1.PNG?raw=true)  
 * 흐름
 	- `c:\` 인자를 넣고 `GetDriveTypeA` 함수를 실행한 후, 리턴값이 `eax`에 저장된다.
 	- `eax`를 `2`만큼 빼고, `0`이었던 `esi`에는 `3`을 더한다.
