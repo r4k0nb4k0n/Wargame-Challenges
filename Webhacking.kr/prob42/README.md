@@ -34,7 +34,7 @@ test.zip password is only numbers
 ## Solution
 * `test.zip`의 링크인 `?down=dGVzdC56aXA=`로 접속하여 `test.zip`을 다운로드 받는다.
 * 패스워드는 오직 숫자로 이루어져있다는 힌트를 이용하여 패스워드를 찾는다.
-    * `fcrack -b -c 1 -l 1-8 -u test.zip`
+    * `fcrackzip -b -c 1 -l 1-8 -u test.zip`
     * `-b` : 브루트-포스
     * `-c 1` : 숫자만 사용
     * `-l 1-8` : 길이 `1`부터 `8`까지
