@@ -1,5 +1,6 @@
 # [Lord Of SQL Injection](https://los.eagle-jump.org/)
 ### Progress
+2018-12-29 **AllClear**!  
 2018-12-29 Solved [`UMARU`](./UMARU).  
 2018-12-20 `EVIL_WIZARD` Sorry, this challenge is broken! (Thanks to @dohyeokkim)  
 2018-12-20 `HELL_FIRE` Sorry, this challenge is broken! (Thanks to @dohyeokkim)  
