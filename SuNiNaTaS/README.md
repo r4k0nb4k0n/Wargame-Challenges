@@ -1,6 +1,7 @@
 # [SuNiNaTaS](http://suninatas.com/)
 
 ### Progress
+2018-12-31 Solved [`CHALLENGE 13`](./MISC/13).  
 2018-12-31 Solved [`CHALLENGE 17`](./MISC/17).  
 2018-12-30 Solved [`CHALLENGE 8`](./WEB/8).  
 2018-12-30 Solved [`CHALLENGE 7`](./WEB/7).  
