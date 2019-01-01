@@ -1,0 +1,71 @@
+movie 'admlogin.swf.decompressed' // flash 8, total frames: 3, frame rate: 12 fps, 200x174 px
+
+
+  frame 0
+    stop
+  end // of frame 0
+
+  defineButton 9
+
+    on overDownToOverUp
+      constants 'flashid', 'admin', 'flashpw', 'myadmin!@', 'flashmessage', 'Wrong ID or PW', 'Auth : "Today is a Good day~~~"', 'receipt'  
+      function receipt ()
+        push 'flashid'
+        getVariable
+        push 'admin'
+        equals
+        not
+        push 'flashpw'
+        getVariable
+        push 'myadmin!@'
+        equals
+        not
+        or
+        not
+        branchIfTrue label1
+        push 'flashmessage', 'Wrong ID or PW'
+        setVariable
+        play
+        branch label2
+       label1:
+        push 'flashmessage', 'Auth : "Today is a Good day~~~"'
+        setVariable
+        play
+       label2:
+      end // of function receipt
+
+      push 0.0, 'receipt'
+      callFunction
+      pop
+    end
+  end // of defineButton 9
+
+  frame 1
+    stop
+  end // of frame 1
+
+  defineButton 15
+
+    on overDownToOverUp
+      gotoFrame 0
+      play
+    end
+  end // of defineButton 15
+
+  frame 2
+    stop
+  end // of frame 2
+
+  defineButton 19
+
+    on overDownToOverUp
+      constants 'flashid', '', 'flashpw'  
+      push 'flashid', ''
+      setVariable
+      push 'flashpw', ''
+      setVariable
+      gotoFrame 0
+      play
+    end
+  end // of defineButton 19
+end
