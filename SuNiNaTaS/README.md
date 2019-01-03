@@ -1,6 +1,7 @@
 # [SuNiNaTaS](http://suninatas.com/)
 
 ### Progress
+2019-01-03 Solved [`CHALLENGE 10`](./BINARY/10).  
 2019-01-03 Solved [`CHALLENGE 9`](./BINARY/9).  
 2019-01-02 Solved [`CHALLENGE 23`](./WEB/23).  
 2019-01-02 Solved [`CHALLENGE 6`](./WEB/6).  
