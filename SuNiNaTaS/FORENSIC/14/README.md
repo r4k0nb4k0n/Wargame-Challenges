@@ -69,3 +69,16 @@ Use the "--show" option to display all of the cracked passwords reliably
 Session completed
 ```
 * `johntheripper` 툴로 1분 30초만에 깰 수 있다.
+
+## Solution
+```
+$ cat shadow | grep suninatas > shadow.suninatas
+$ john shadow.suninatas
+Loaded 1 password hash (crypt, generic crypt(3) [?/64])
+Press 'q' or Ctrl-C to abort, almost any other key for status
+iloveu1          (suninatas)
+1g 0:00:01:29 100% 2/3 0.01111g/s 159.6p/s 159.6c/s 159.6C/s helene1..loren1
+Use the "--show" option to display all of the cracked passwords reliably
+Session completed
+```
+* Brute-force it using `john`.
