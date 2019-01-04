@@ -34,4 +34,7 @@ http://suninatas.com/Part_one/web10/reversing.zip
 ![](./5.PNG?raw=true)
 * 괜찮은 C# 디컴파일러인 JETBRAINS dotPeek으로 보았다. C#으로 쉽게 읽을 수 있다.
 
+![](./6.PNG?raw=true)
+* @ddddhkim에게 추천받은 dnSpy로 보았다. 
+
 * C#은 프로그래밍 언어이고, 이를 이용해 만든 프로그램은 .NET Framework라는 가상머신에서 작동한다. 이는 Java와 JVM의 관계와 같다.
