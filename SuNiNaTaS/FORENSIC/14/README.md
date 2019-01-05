@@ -53,6 +53,7 @@ suninatas:$6$QlRlqGhj$BZoS9PuMMRHZZXz1Gde99W01u3kD9nP/zYtl8O2dsshdnwsJT/1lZXsLar
 ::
 ```
 * `shadow` 파일에서 `suninatas` 행의 `Password` column을 보니 `$6$`, 즉 SHA-512 알고리즘으로 암호화했다는 것을 알 수 있다.
+* 최소 길이 `0`, 최대 길이 `99999`이다.
 * `$6$QlRlqGhj$BZoS9PuMMRHZZXz1Gde99W01u3kD9nP/zYtl8O2dsshdnwsJT/1lZXsLar8asQZpqTAioiey4rKVpsLm/bqrX/`
     - `$id` : `$6`
     - `$salt` : `$QlRlqGhj`
