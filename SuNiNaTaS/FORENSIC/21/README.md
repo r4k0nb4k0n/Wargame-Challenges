@@ -39,3 +39,12 @@ Is it a Puzzle?
 * 정상 파일에서 선택한 부분을 DQT Marker(`FF DB`) 전까지 덮어씌우고 저장하면 다음과 같은 사진이 나타난다.
 	- ![](./hidden.jpg?raw=true)
 * `H4CC3R_IN_TH3_MIDD33_4TT4CK` 임을 유추할 수 있다.
+
+## Review
+* 혹시 몰라서 다른 풀이를 살펴보니 툴을 이용해서 좀더 쉽게 풀 수 있다는 것을 깨달았다.
+* WinHex를 실행하고 `monitor.jpg`를 연 뒤, Tools - Disk Tools - File Recovery by Type...를 실행한다.
+    - ![](./4.PNG?raw=true)
+* File Header를 찾아서 이를 기준으로 파일을 복구하는 것 같다. `Pictures`에 체크하고 `Complete byte-level search` 선택 후 진행한다.
+    - ![](./5.PNG?raw=true)
+* 다음과 같이 숨겨진 이미지들을 찾았다. 여기서 확실하게 키를 알아낼 수 있다.
+    - ![](./6.PNG?raw=true)
