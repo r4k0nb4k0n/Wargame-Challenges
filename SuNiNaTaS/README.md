@@ -1,6 +1,7 @@
 # [SuNiNaTaS](http://suninatas.com/)
 
 ### Progress
+2019-01-07 Solved [`CHALLENGE 32`](./FORENSIC/32).  
 2019-01-06 Solved [`CHALLENGE 28`](./FORENSIC/28).  
 2019-01-06 Solved [`CHALLENGE 26`](./FORENSIC/26).  
 2019-01-05 Solved [`CHALLENGE 21`](./FORENSIC/21).  
