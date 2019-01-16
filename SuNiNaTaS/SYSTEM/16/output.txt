@@ -1,0 +1,6 @@
+Timestamps,POST /member/mem_action.asp HTTP/1.1\r\n,\r\n,Form item: "Hid" = "suninatas",Form item: "Hpw" = "suninatas"
+Timestamps,POST /member/mem_action.asp HTTP/1.1\r\n,\r\n,Form item: "Hid" = "blackkey",Form item: "Hpw" = "blackkey"
+Timestamps,POST /member/mem_action.asp HTTP/1.1\r\n,\r\n,Form item: "Hid" = "ultrashark",Form item: "Hpw" = "sharkpass01"
+Timestamps,POST /member/mem_action.asp HTTP/1.1\r\n,\r\n,Form item: "Hid" = "ultrashark",Form item: "Hpw" = "=sharkpass01"
+Timestamps,POST /member/mem_action.asp HTTP/1.1\r\n,\r\n,Form item: "Hid" = "ultrashark",Form item: "Hpw" = "=SharkPass01"
+Timestamps,POST /member/mem_action.asp?licen=login_out HTTP/1.1\r\n,\r\n
