@@ -7,7 +7,7 @@ http://suninatas.com/Part_one/web24/Suninatas24.zip
 
 ## Tool
 * [`file`](https://linux.die.net/man/1/file)
-* [`tree`]()https://linux.die.net/man/1/tree
+* [`tree`](https://linux.die.net/man/1/tree)
 * [jadx](https://github.com/skylot/jadx)
 
 ## Inspection and Solution
