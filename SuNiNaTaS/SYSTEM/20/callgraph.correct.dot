@@ -1,0 +1,11 @@
+digraph code {
+	graph [bgcolor=azure fontsize=8 fontname="Courier" splines="ortho"];
+	node [fillcolor=gray style=filled shape=box];
+	edge [arrowhead="normal"];
+	"0x0804925f" -> "0x08049284" [color="green"];
+	"0x0804925f" -> "0x08049278" [color="red"];
+	"0x0804925f" [URL="sym.correct/0x0804925f", fillcolor="white",color="#7f7f7f", fontname="Courier",label="(fcn) sym.correct 49\l  sym.correct ();\l; var int local_ch @ ebp-0xc\l; CALL XREF from main (0x8049451)\l0x0804925f      push ebp\l0x08049260      mov ebp, esp\l0x08049262      sub esp, 0x28                                          ; '('\l0x08049265      mov dword [local_ch], obj.input                        ; 0x811c9ec\l0x0804926c      mov eax, dword [local_ch]\l0x0804926f      mov eax, dword [eax]\l0x08049271      cmp eax, 0xdeadbeef\l0x08049276      jne 0x8049284\l"]
+	"0x08049278" -> "0x08049284" [color="blue"];
+	"0x08049278" [URL="sym.correct/0x08049278", fillcolor="white",color="#7f7f7f", fontname="Courier",label="0x08049278      mov dword [esp], 0x80d9d71                             ; [0x80d9d71:4]=0x676e6f43 ; \"Congratulation! you are good!\"\l0x0804927f      call sym.puts                                          ; int puts(const char *s)\l"]
+	"0x08049284" [URL="sym.correct/0x08049284", fillcolor="white",color="#7f7f7f", fontname="Courier",label="0x08049284      mov dword [esp], 0\l0x0804928b      call sym._Exit                                         ; void _Exit(int status)\l"]
+}
