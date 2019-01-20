@@ -2,6 +2,7 @@
 
 ### Progress
 2019-01-18 Solved [`CHALLENGE 20`](./SYSTEM/20).  
+2019-01-18 Solved [`CHALLENGE 27`](./SYSTEM/27).  
 2019-01-18 Solved [`CHALLENGE 25`](./SYSTEM/25).  
 2019-01-18 Solved [`CHALLENGE 24`](./SYSTEM/24).  
 2019-01-16 Solved [`CHALLENGE 16`](./SYSTEM/16).  
