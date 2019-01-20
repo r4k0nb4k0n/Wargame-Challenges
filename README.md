@@ -6,5 +6,6 @@
 	- 2018-12-29 **AllClear**!
 * [pwnable.kr](./pwnable.kr)
 * [SuNiNaTaS](./SuNiNaTaS)
+	- 2019-01-18 **AllClear**!  
 * [Wargame.kr](./Wargame.kr)
 * [Webhacking.kr](./Webhacking.kr)
