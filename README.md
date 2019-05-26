@@ -5,6 +5,7 @@
 * [Lord Of SQL Injection](./LOS) 
 	- 2018-12-29 **AllClear**!
 * [pwnable.kr](./pwnable.kr)
+* [Reversing.Kr](./Reversing.Kr)
 * [SuNiNaTaS](./SuNiNaTaS)
 	- 2019-01-18 **AllClear**!  
 * [Wargame.kr](./Wargame.kr)
