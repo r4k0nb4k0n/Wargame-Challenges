@@ -1,0 +1,6 @@
+digraph code {
+	graph [bgcolor=azure fontsize=8 fontname="Courier" splines="ortho"];
+	node [fillcolor=gray style=filled shape=box];
+	edge [arrowhead="normal"];
+	"0x080484f7" [URL="print_correct/0x080484f7", fillcolor="white",color="#003030", fontname="Courier",label="(fcn) print_correct 36\l  print_correct ();\l; var int local_4h @ esp+0x4\l; var int local_8h @ esp+0x8\l; CALL XREF from main (0x804854f)\l0x080484f7      push ebp\l0x080484f8      ebp = esp\l0x080484fa      esp -= 0x18\l0x080484fd      dword [local_8h] = 9\l0x08048505      dword [local_4h] = str.Correct                         ; [0x8048653:4]=0x72726f43 ; \"Correct!\\n\"\l0x0804850d      dword [esp] = 1\l0x08048514      sym.imp.write ()                                       ; ssize_t write(int fd, void *ptr, size_t nbytes)\l0x08048519      leave \l0x0804851a      return\l"]
+}

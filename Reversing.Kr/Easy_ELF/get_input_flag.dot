@@ -1,0 +1,6 @@
+digraph code {
+	graph [bgcolor=azure fontsize=8 fontname="Courier" splines="ortho"];
+	node [fillcolor=gray style=filled shape=box];
+	edge [arrowhead="normal"];
+	"0x08048434" [URL="get_input_flag/0x08048434", fillcolor="white",color="#003030", fontname="Courier",label="(fcn) get_input_flag 29\l  get_input_flag ();\l; var int local_4h @ esp+0x4\l; CALL XREF from main (0x8048540)\l0x08048434      push ebp\l0x08048435      ebp = esp\l0x08048437      esp -= 0x18\l0x0804843a      eax = 0x8048650\l0x0804843f      dword [local_4h] = 0x804a020                           ; [0x804a020:4]=0\l0x08048447      dword [esp] = eax\l0x0804844a      sym.imp.__isoc99_scanf ()                              ; int scanf(const char *format)\l0x0804844f      leave \l0x08048450      return\l"]
+}

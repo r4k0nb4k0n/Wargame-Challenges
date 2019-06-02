@@ -1,0 +1,38 @@
+digraph code {
+	graph [bgcolor=azure fontsize=8 fontname="Courier" splines="ortho"];
+	node [fillcolor=gray style=filled shape=box];
+	edge [arrowhead="normal"];
+	"0x08048451" -> "0x08048469" [color="#809000"];
+	"0x08048451" -> "0x0804845f" [color="#c04010"];
+	"0x08048451" [URL="judge_flag/0x08048451", fillcolor="white",color="#003030", fontname="Courier",label="(fcn) judge_flag 166\l  judge_flag ();\l; CALL XREF from main (0x8048545)\l0x08048451      push ebp\l0x08048452      ebp = esp\l0x08048454      eax = byte [0x804a021]                                 ; [0x804a021:1]=0\l0x0804845b      var = al - 0x31                                        ; '1' ; 49\l0x0804845d      if (!var) goto 0x8048469\l"]
+	"0x0804845f" -> "0x080484f5" [color="#809090"];
+	"0x0804845f" [URL="judge_flag/0x0804845f", fillcolor="white",color="#003030", fontname="Courier",label="0x0804845f      eax = 0\l0x08048464      goto 0x80484f5\l"]
+	"0x08048469" -> "0x080484a8" [color="#809000"];
+	"0x08048469" -> "0x080484a1" [color="#c04010"];
+	"0x08048469" [URL="judge_flag/0x08048469", fillcolor="white",color="#003030", fontname="Courier",label="0x08048469      eax = byte [0x804a020]                                 ; [0x804a020:1]=0\l0x08048470      eax ^= 0x34\l0x08048473      byte [0x804a020] = al                                  ; [0x804a020:1]=0\l0x08048478      eax = byte [0x804a022]                                 ; [0x804a022:1]=0\l0x0804847f      eax ^= 0x32\l0x08048482      byte [0x804a022] = al                                  ; [0x804a022:1]=0\l0x08048487      eax = byte [0x804a023]                                 ; [0x804a023:1]=0\l0x0804848e      eax ^= 0xffffff88\l0x08048491      byte [0x804a023] = al                                  ; [0x804a023:1]=0\l0x08048496      eax = byte [0x804a024]                                 ; [0x804a024:1]=0\l0x0804849d      var = al - 0x58                                        ; 'X' ; 88\l0x0804849f      if (!var) goto 0x80484a8\l"]
+	"0x080484a1" -> "0x080484f5" [color="#809090"];
+	"0x080484a1" [URL="judge_flag/0x080484a1", fillcolor="white",color="#003030", fontname="Courier",label="0x080484a1      eax = 0\l0x080484a6      goto 0x80484f5\l"]
+	"0x080484a8" -> "0x080484ba" [color="#809000"];
+	"0x080484a8" -> "0x080484b3" [color="#c04010"];
+	"0x080484a8" [URL="judge_flag/0x080484a8", fillcolor="white",color="#003030", fontname="Courier",label="0x080484a8      eax = byte [0x804a025]                                 ; [0x804a025:1]=0\l0x080484af      var = al & al\l0x080484b1      if (!var) goto 0x80484ba\l"]
+	"0x080484b3" -> "0x080484f5" [color="#809090"];
+	"0x080484b3" [URL="judge_flag/0x080484b3", fillcolor="white",color="#003030", fontname="Courier",label="0x080484b3      eax = 0\l0x080484b8      goto 0x80484f5\l"]
+	"0x080484ba" -> "0x080484cc" [color="#809000"];
+	"0x080484ba" -> "0x080484c5" [color="#c04010"];
+	"0x080484ba" [URL="judge_flag/0x080484ba", fillcolor="white",color="#003030", fontname="Courier",label="0x080484ba      eax = byte [0x804a022]                                 ; [0x804a022:1]=0\l0x080484c1      var = al - 0x7c                                        ; '|' ; 124\l0x080484c3      if (!var) goto 0x80484cc\l"]
+	"0x080484c5" -> "0x080484f5" [color="#809090"];
+	"0x080484c5" [URL="judge_flag/0x080484c5", fillcolor="white",color="#003030", fontname="Courier",label="0x080484c5      eax = 0\l0x080484ca      goto 0x80484f5\l"]
+	"0x080484cc" -> "0x080484de" [color="#809000"];
+	"0x080484cc" -> "0x080484d7" [color="#c04010"];
+	"0x080484cc" [URL="judge_flag/0x080484cc", fillcolor="white",color="#003030", fontname="Courier",label="0x080484cc      eax = byte [0x804a020]                                 ; [0x804a020:1]=0\l0x080484d3      var = al - 0x78                                        ; 'x' ; 120\l0x080484d5      if (!var) goto 0x80484de\l"]
+	"0x080484d7" -> "0x080484f5" [color="#809090"];
+	"0x080484d7" [URL="judge_flag/0x080484d7", fillcolor="white",color="#003030", fontname="Courier",label="0x080484d7      eax = 0\l0x080484dc      goto 0x80484f5\l"]
+	"0x080484de" -> "0x080484f0" [color="#809000"];
+	"0x080484de" -> "0x080484e9" [color="#c04010"];
+	"0x080484de" [URL="judge_flag/0x080484de", fillcolor="white",color="#003030", fontname="Courier",label="0x080484de      eax = byte [0x804a023]                                 ; [0x804a023:1]=0\l0x080484e5      var = al - 0xdd                                        ; 221\l0x080484e7      if (!var) goto 0x80484f0\l"]
+	"0x080484e9" -> "0x080484f5" [color="#809090"];
+	"0x080484e9" [URL="judge_flag/0x080484e9", fillcolor="white",color="#003030", fontname="Courier",label="0x080484e9      eax = 0\l0x080484ee      goto 0x80484f5\l"]
+	"0x080484f0" -> "0x080484f5" [color="#809090"];
+	"0x080484f0" [URL="judge_flag/0x080484f0", fillcolor="white",color="#003030", fontname="Courier",label="0x080484f0      eax = 1\l"]
+	"0x080484f5" [URL="judge_flag/0x080484f5", fillcolor="white",color="#003030", fontname="Courier",label="; XREFS: CODE 0x08048464  CODE 0x080484a6  CODE 0x080484b8  CODE 0x080484ca  CODE 0x080484dc  CODE 0x080484ee  \l0x080484f5          \l0x080484f6      return\l"]
+}

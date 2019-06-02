@@ -1,0 +1,13 @@
+digraph code {
+	graph [bgcolor=azure fontsize=8 fontname="Courier" splines="ortho"];
+	node [fillcolor=gray style=filled shape=box];
+	edge [arrowhead="normal"];
+	"0x0804851b" -> "0x0804855b" [color="#809000"];
+	"0x0804851b" -> "0x0804854f" [color="#c04010"];
+	"0x0804851b" [URL="main/0x0804851b", fillcolor="palegreen",color="#003030", fontname="Courier",label="(fcn) main 99\l  int main (int argc, char **argv, char **envp);\l; var int string @ esp+0x4\l; var int length_of_string @ esp+0x8\l; DATA XREF from entry0 (0x8048397)\l0x0804851b      push ebp\l0x0804851c      ebp = esp\l0x0804851e      esp &= 0xfffffff0\l0x08048521      esp -= 0x10\l0x08048524      dword [length_of_string] = 0x17                        ; [0x17:4]=-1 ; 23\l0x0804852c      dword [string] = str.Reversing.Kr_Easy_ELF             ; [0x804865d:4]=0x65766552 ; \"Reversing.Kr Easy ELF\\n\\n\"\l0x08048534      dword [esp] = 1\l0x0804853b      sym.imp.write ()                                       ; ssize_t write(int fd, void *ptr, size_t nbytes)\l0x08048540      get_input_flag ()\l0x08048545      judge_flag ()\l0x0804854a      var = eax - 1                                          ; 1\l0x0804854d      if (var) goto 0x804855b\l"]
+	"0x0804854f" -> "0x0804857c" [color="#809090"];
+	"0x0804854f" [URL="main/0x0804854f", fillcolor="white",color="#003030", fontname="Courier",label="0x0804854f      print_correct ()\l0x08048554      eax = 0\l0x08048559      goto 0x804857c\l"]
+	"0x0804855b" -> "0x0804857c" [color="#809090"];
+	"0x0804855b" [URL="main/0x0804855b", fillcolor="white",color="#003030", fontname="Courier",label="0x0804855b      dword [length_of_string] = 6\l0x08048563      dword [string] = str.Wrong                             ; [0x8048675:4]=0x6e6f7257 ; \"Wrong\\n\"\l0x0804856b      dword [esp] = 1\l0x08048572      sym.imp.write ()                                       ; ssize_t write(int fd, void *ptr, size_t nbytes)\l0x08048577      eax = 0\l"]
+	"0x0804857c" [URL="main/0x0804857c", fillcolor="white",color="#003030", fontname="Courier",label="; CODE XREF from main (0x8048559)\l0x0804857c      leave \l0x0804857d      return\l"]
+}
