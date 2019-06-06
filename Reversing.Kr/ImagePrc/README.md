@@ -18,7 +18,7 @@
 * 해당 PE 파일의 특성을 알 수 있다.
 	- Win32
 	- GUI
-	- Microsoft Visual C++ 5.0/6.
+	- Microsoft Visual C++ 5.0/6.0
 
 ![](./2.PNG?raw=true)
 * 해당 PE 파일을 실행해보았다.
