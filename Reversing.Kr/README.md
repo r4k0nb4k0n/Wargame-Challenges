@@ -1,6 +1,7 @@
 # [Reversing.Kr](http://reversing.kr/)
 
 ### Progress
+2019-06-08 Solved [Music Player](./Music_Player).  
 2019-06-06 Solved [ImagePrc](./ImagePrc).  
 2019-06-03 Solved [Replace](./Replace).  
 2019-06-02 Solved [Easy ELF](./Easy_ELF).  
