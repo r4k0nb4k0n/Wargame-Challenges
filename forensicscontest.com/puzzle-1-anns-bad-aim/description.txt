@@ -1,0 +1,31 @@
+﻿Anarchy-R-Us, Inc. suspects that one of their employees, Ann Dercover, is really a secret agent working for their competitor. Ann has access to the company’s prize asset, the secret recipe. Security staff are worried that Ann may try to leak the company’s secret recipe.
+
+Security staff have been monitoring Ann’s activity for some time, but haven’t found anything suspicious– until now. Today an unexpected laptop briefly appeared on the company wireless network. Staff hypothesize it may have been someone in the parking lot, because no strangers were seen in the building. Ann’s computer, (192.168.1.158) sent IMs over the wireless network to this computer. The rogue laptop disappeared shortly thereafter.
+
+“We have a packet capture of the activity,” said security staff, “but we can’t figure out what’s going on. Can you help?”
+
+You are the forensic investigator. Your mission is to figure out who Ann was IM-ing, what she sent, and recover evidence including:
+
+1. What is the name of Ann’s IM buddy?
+-> Sec558user1
+2. What was the first comment in the captured IM conversation?
+-> Here's the secret recipe... I just downloaded it from the file server. Just copy to a thumb drive and you're good to go &gt;:-)
+3. What is the name of the file Ann transferred?
+-> recipe.docx
+4. What is the magic number of the file you want to extract (first four bytes)?
+-> 50 4b 03 04
+5. What was the MD5sum of the file?
+-> 8350582774E1D4DBE1D61D64C89E0EA1
+6. What is the secret recipe?
+-> 
+
+Here is your evidence file:
+
+http://forensicscontest.com/contest01/evidence01.pcap
+MD5 (evidence.pcap) = d187d77e18c84f6d72f5845edca833f5
+
+The MOST ELEGANT solution wins. In the event of a tie, the entry submitted first will receive the prize. Scripting is always encouraged. All responses should be submitted as plain text files.
+
+Exceptional solutions may be incorporated into the SANS Network Forensics Toolkit. Authors agree that their code submissions will be freely published under the GPL license, in order to further the state of network forensics knowledge. Exceptional submissions may also be used as examples and tools in the Network Forensics class. All authors will receive full credit for their work.
+
+Email submissions to answers@lakemissoulagroup.com. Deadline is 9/10/09. Good luck!! 
