@@ -1,0 +1,37 @@
+﻿After being released on bail, Ann Dercover disappears! Fortunately, investigators were carefully monitoring her network activity before she skipped town.
+
+“We believe Ann may have communicated with her secret lover, Mr. X, before she left,” says the police chief. “The packet capture may contain clues to her whereabouts.”
+
+You are the forensic investigator. Your mission is to figure out what Ann emailed, where she went, and recover evidence including:
+
+1. What is Ann’s email address?
+-> sneakyg33k@aol.com
+2. What is Ann’s email password?
+-> 558r00lz
+3. What is Ann’s secret lover’s email address?
+-> <mistersecretx@aol.com
+4. What two items did Ann tell her secret lover to bring?
+-> His/her fake passport and a bathing suit
+5. What is the NAME of the attachment Ann sent to her secret lover?
+-> secretrendezvous.docx
+6. What is the MD5sum of the attachment Ann sent to her secret lover?
+-> 9E423E11DB88F01BBFF81172839E1923
+7. In what CITY and COUNTRY is their rendez-vous point?
+-> Playa del Carmen, Mexico
+8. What is the MD5sum of the image embedded in the document?
+-> AADEACE50997B1BA24B09AC2EF1940B7
+
+Please use the Official Submission form to submit your answers. Prize TBD. Prize will be a Lenovo IdeaPad S10-2 – just like the free netbooks Sec558 students will get in Orlando.
+
+Here is your evidence file:
+
+http://forensicscontest.com/contest02/evidence02.pcap
+MD5 (evidence02.pcap) = cfac149a49175ac8e89d5b5b5d69bad3
+
+The MOST ELEGANT solution wins. In the event of a tie, the entry submitted first will receive the prize. Scripting is always encouraged. We love to see well-written, easy-to-use tools which automate even small sections of the evidence recovery. You are welcome to build upon the work of others, as long as their work has been released under a GPL license. (If it has been released under another free-software license, email us to confirm eligibility.) All responses should be submitted as plain text. Microsoft Word documents, PDFs, etc will NOT be reviewed.
+
+Exceptional solutions may be incorporated into the SANS Network Forensics Toolkit. Authors agree that their code submissions will be freely published under the GPL license, in order to further the state of network forensics knowledge. Exceptional submissions may also be used as examples and tools in the Network Forensics class. All authors will receive full credit for their work.
+
+Deadline is 11/15/09 11/22/09. Here’s the Official Submission form. Good luck!!
+
+Share and Enjoy:
