@@ -1,0 +1,40 @@
+Ann and Mr. X have set up their new base of operations. While waiting for the extradition paperwork to go through, you and your team of investigators covertly monitor her activity. Recently, Ann got a brand new AppleTV, and configured it with the static IP address 192.168.1.10. Here is the packet capture with her latest activity.
+
+You are the forensic investigator. Your mission is to find out what Ann searched for, build a profile of her interests, and recover evidence including:
+
+1. What is the MAC address of Ann¡¯s AppleTV?
+-> Source: Apple_fe:07:c4 (00:25:00:fe:07:c4)
+2. What User-Agent string did Ann¡¯s AppleTV use in HTTP requests?
+-> User-Agent: AppleTV/2.4\r\n
+3. What were Ann¡¯s first four search terms on the AppleTV (all incremental searches count)?
+-> hack(h, ha, hac, hack)
+4. What was the title of the first movie Ann clicked on?
+-> Hackers
+5. What was the full URL to the movie trailer (defined by ¡°preview-url¡±)?
+-> http://a227.v.phobos.apple.com/us/r1000/008/Video/62/bd/1b/mzm.plqacyqb..640x278.h264lc.d2.p.m4v
+6. What was the title of the second movie Ann clicked on?
+-> Sneakers
+7. What was the price to buy it (defined by ¡°price-display¡±)?
+-> $9.99
+8. What was the last full term Ann searched for?
+-> iknowyourewatchingme
+
+Prize: Ann¡¯s AppleTV (of course!)
+
+Deadline is 2/01/10 (11:59:59PM UTC-11) (In other words, if it¡¯s still 2/01/10 anywhere in the world, you can submit your entry.)
+
+Please use the Official Submission form to submit your answers. Here is your evidence file:
+http://forensicscontest.com/contest03/evidence03.pcap
+MD5 (evidence03.pcap) = f8a01fbe84ef960d7cbd793e0c52a6c9
+
+The MOST ELEGANT solution wins. In the event of a tie, the entry submitted first will receive the prize. Coding is always encouraged. We love to see well-written, easy-to-use tools which automate even small sections of the evidence recovery. Graphical and command-line tools are all eligible. You are welcome to build upon the work of others, as long as their work has been released under a GPL license. (If it has been released under another free-software license, email us to confirm eligibility.) All responses should be submitted as plain text. Microsoft Word documents, PDFs, etc will NOT be reviewed.
+
+Feel free to collaborate with other people and discuss ideas back and forth. You can even submit as a team (there will be only one prize). However, please do not publish the answers before the deadline, or you (and your team) will be automatically disqualified. Also, please understand that the contest materials are copyrighted and that we¡¯re offering them publicly for the community to enjoy. You are welcome to publish full solutions after the deadline, but please use proper attributions and link back. If you are interested in using the contest materials for other purposes, just ask first.
+
+Exceptional solutions may be incorporated into the SANS Network Forensics Toolkit. Authors agree that their code submissions will be freely published under the GPL license, in order to further the state of network forensics knowledge. Exceptional submissions may also be used as examples and tools in the Network Forensics class. All authors will receive full credit for their work.
+
+Deadline is 2/01/10 (11:59:59PM UTC-11). Here¡¯s the Official Submission form. Good luck!!
+
+Copyright 2009, Lake Missoula Group, LLC. All rights reserved.
+
+Share and Enjoy:
