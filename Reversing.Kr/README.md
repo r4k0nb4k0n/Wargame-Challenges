@@ -1,6 +1,7 @@
 # [Reversing.Kr](http://reversing.kr/)
 
 ### Progress
+2019-11-28 Solved [CSHOP](./CSHOP).  
 2019-11-27 Solved [Ransomeware](./ransomware).  
 2019-11-20 Solved [Position](./Position).  
 2019-06-08 Solved [Music Player](./Music_Player).  
