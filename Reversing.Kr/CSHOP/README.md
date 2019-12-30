@@ -18,7 +18,7 @@
 * Window만 뜨고 빈 Form만 있다.
 
 ![](./3_1.PNG?raw=true)  
-![](./3_1.PNG?raw=true)  
+![](./3_2.PNG?raw=true)  
 * `CSHOP` - `FrmMain` - `InitializeComponent()`
     - 여러 개의 label과 한 개의 button을 생성한 후 2차원 좌표계로 위치를 지정한 것을 볼 수 있다.
     - button의 click 이벤트 핸들러 함수를 연결하는 것을 볼 수 있다.
