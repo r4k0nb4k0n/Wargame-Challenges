@@ -1,6 +1,7 @@
 # [Reversing.Kr](http://reversing.kr/)
 
 ### Progress
+2020-02-03 Solved [HateIntel](./HateIntel).  
 2020-02-03 Solved [x64 Lotto](./Lotto).  
 2020-01-16 Solved [AHK2](./AHK2).  
 2019-12-30 Solved [AHK](./AHK).  
