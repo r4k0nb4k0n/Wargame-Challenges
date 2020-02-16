@@ -1,0 +1,11 @@
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\bin\Debug\netcoreapp3.1\getkey.exe
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\bin\Debug\netcoreapp3.1\getkey.deps.json
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\bin\Debug\netcoreapp3.1\getkey.runtimeconfig.json
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\bin\Debug\netcoreapp3.1\getkey.runtimeconfig.dev.json
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\bin\Debug\netcoreapp3.1\getkey.dll
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\bin\Debug\netcoreapp3.1\getkey.pdb
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\obj\Debug\netcoreapp3.1\getkey.csprojAssemblyReference.cache
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\obj\Debug\netcoreapp3.1\getkey.AssemblyInfoInputs.cache
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\obj\Debug\netcoreapp3.1\getkey.AssemblyInfo.cs
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\obj\Debug\netcoreapp3.1\getkey.dll
+C:\Users\r4k4\Documents\Wargame-Challenges\Reversing.Kr\PEPassword\getkey\obj\Debug\netcoreapp3.1\getkey.pdb
