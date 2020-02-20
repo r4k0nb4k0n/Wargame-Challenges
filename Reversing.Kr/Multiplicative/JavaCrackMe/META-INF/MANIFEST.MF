@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Created-By: 1.7.0_11 (Oracle Corporation)
+Main-Class: JavaCrackMe
+
