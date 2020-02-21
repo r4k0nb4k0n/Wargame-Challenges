@@ -34,7 +34,7 @@ Twist1.exe is run in x86 windows.
   * ![2-3](./2-3.png?raw=true)
     * [`Twist1.DMP`](./Twist1.DMP)의 `RawData` 섹션 중 PE 파일 부분을 `BaseOfImage`와 `SizeOfImage`에 기반하여 선택한 후 복사한다.
   * ![2-4](./2-4.png?raw=true)
-    * 복사한 값들을 새로운 파일인 [`Twist1.DMP.extracted.exe`]에 저장한다.
+    * 복사한 값들을 새로운 파일인 [`Twist1.DMP.extracted.exe`](./Twist1.DMP.extracted.exe)에 저장한다.
 * 프로세스 덤프 파일에서 추출한 PE 파일을 분석하여 플래그를 얻는다.
   * ![3-1](./3-1.png?raw=true)
     * `check_input` 함수의 결과값이 `0`이 아니어야 `Correct!` 문자열이 출력되는 루틴으로 빠진다.
